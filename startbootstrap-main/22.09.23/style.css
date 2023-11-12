@@ -193,32 +193,29 @@ header nav a:hover {
 #about {
   padding: 96px 0px;
 }
-#about .first h1 {
+#about h1 {
   font-size: 40px;
   margin-bottom: 16px;
   font-weight: 700;
   color: #212529;
 }
-#about .first h4 {
+#about h4 {
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 64px;
   color: #6c757d;
 }
-#about .second h2, #about .third h2 {
+#about h2 {
   font-size: 24px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 8px;
 }
-#about .second p, #about .third p {
+#about p {
   color: #6c757d;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.75;
-}
-#about .second {
-  width: 380px;
 }
 #about img {
   border-radius: 100%;
