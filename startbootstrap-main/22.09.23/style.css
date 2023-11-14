@@ -226,6 +226,9 @@ header nav a:hover {
   border-radius: 100%;
   border: 7px solid #e9ecef;
   margin-left: 40px;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
 }
 #about .second {
   width: 400px;
@@ -250,10 +253,11 @@ header nav a:hover {
   font-weight: 400;
   margin-bottom: 64px;
 }
-#team img {
+#team .imgbox {
   border-radius: 100%;
   border: 8px solid #dfe0e1;
   width: 224px;
+  overflow: hidden;
 }
 #team .second h2 {
   color: #212529;
@@ -297,12 +301,11 @@ header nav a:hover {
 
 #company {
   padding: 48px 0px 48px;
-  margin: 0px 80px 0px;
 }
-#company img {
+#company .imgbox {
   height: 44px;
 }
-#company img:hover {
+#company .imgbox img:hover {
   cursor: pointer;
 }
 
@@ -382,10 +385,4 @@ footer h3, footer h4 {
   font-size: 17px;
   cursor: pointer;
   margin-right: 16px;
-}
-@media (max-width: 992px) {
-  footer .col-md-8 {
-    display: flex;
-    justify-content: end;
-  }
 }/*# sourceMappingURL=style.css.map */
