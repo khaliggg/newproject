@@ -235,6 +235,8 @@ header nav a:hover {
 }
 #about .box {
   margin: 0px 95px 0px;
+  display: flex;
+  flex-flow: row-wrap;
 }
 
 #team {
