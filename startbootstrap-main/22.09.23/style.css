@@ -233,11 +233,6 @@ header nav a:hover {
 #about .second {
   width: 400px;
 }
-#about .box {
-  margin: 0px 95px 0px;
-  display: flex;
-  flex-flow: row-wrap;
-}
 
 #team {
   padding: 96px 0px;
@@ -387,4 +382,10 @@ footer h3, footer h4 {
   font-size: 17px;
   cursor: pointer;
   margin-right: 16px;
+}
+@media (max-width: 992px) {
+  footer .box {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
